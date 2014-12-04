@@ -1,0 +1,3106 @@
+
+stdClass Object
+(
+    [common] => stdClass Object
+        (
+            [replay_version] => 0.9.4.0
+            [datablock_1] => 1
+            [message] => ok
+            [datablock_battle_result] => 1
+            [status] => ok
+        )
+
+    [identify] => stdClass Object
+        (
+            [arenaUniqueID] => 27243099235163444
+            [replay_version] => 0.9.4.0
+            [isWinner] => 0
+            [internaluserID] => 12367259
+            [arenaCreateTime] => 02.12.2014 22:13:02
+            [playername] => karipatila
+            [accountDBID] => 511922213
+            [mapName] => 28_desert
+            [error] => none
+            [error_details] => none
+        )
+
+    [datablock_1] => stdClass Object
+        (
+            [roamingSettings] => Array
+                (
+                    [0] => 2
+                    [1] => 2
+                    [2] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 2
+                                    [1] => 500000000
+                                    [2] => 999999999
+                                    [3] => EU
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => 1
+                                    [1] => 1
+                                    [2] => 499999999
+                                    [3] => RU
+                                )
+
+                            [2] => Array
+                                (
+                                    [0] => 3
+                                    [1] => 1000000000
+                                    [2] => 1499999999
+                                    [3] => NA
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                        )
+
+                )
+
+            [clientVersionFromXml] => WorldÂ ofÂ Tanks v.0.9.4 #812
+            [clientVersionFromExe] => 0, 9, 4, 0
+            [mapDisplayName] => Sand River
+            [gameplayID] => ctf
+            [regionCode] => EU
+            [playerID] => 511922213
+            [serverName] => WOT EU2
+            [vehicles] => stdClass Object
+                (
+                    [12367264] => stdClass Object
+                        (
+                            [vehicleType] => ussr:IS-3
+                            [isAlive] => 1
+                            [name] => Lefexel
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [events] => Array
+                                (
+                                )
+
+                            [isTeamKiller] => 
+                        )
+
+                    [12367265] => stdClass Object
+                        (
+                            [vehicleType] => france:AMX_13_90
+                            [isAlive] => 1
+                            [name] => Crazy_Mayes
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [events] => Array
+                                (
+                                )
+
+                            [isTeamKiller] => 
+                        )
+
+                    [12367268] => stdClass Object
+                        (
+                            [vehicleType] => usa:T32
+                            [isAlive] => 1
+                            [name] => Vteec
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [events] => Array
+                                (
+                                )
+
+                            [isTeamKiller] => 
+                        )
+
+                    [12367269] => stdClass Object
+                        (
+                            [vehicleType] => france:AMX_13_90
+                            [isAlive] => 1
+                            [name] => Vracaras
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [events] => Array
+                                (
+                                )
+
+                            [isTeamKiller] => 
+                        )
+
+                    [12367271] => stdClass Object
+                        (
+                            [vehicleType] => france:AMX_13_90
+                            [isAlive] => 1
+                            [name] => PetiteDwarf
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [events] => Array
+                                (
+                                )
+
+                            [isTeamKiller] => 
+                        )
+
+                    [12367272] => stdClass Object
+                        (
+                            [vehicleType] => france:AMX_50_100
+                            [isAlive] => 1
+                            [name] => Skorce
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [events] => Array
+                                (
+                                )
+
+                            [isTeamKiller] => 
+                        )
+
+                    [12367274] => stdClass Object
+                        (
+                            [vehicleType] => ussr:IS-3
+                            [isAlive] => 1
+                            [name] => Dark_warsmith
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [events] => Array
+                                (
+                                )
+
+                            [isTeamKiller] => 
+                        )
+
+                    [12367248] => stdClass Object
+                        (
+                            [vehicleType] => france:AMX_13_90
+                            [isAlive] => 1
+                            [name] => capt_napalm
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [events] => Array
+                                (
+                                )
+
+                            [isTeamKiller] => 
+                        )
+
+                    [12367249] => stdClass Object
+                        (
+                            [vehicleType] => france:AMX_50_100
+                            [isAlive] => 1
+                            [name] => tnmj
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [events] => Array
+                                (
+                                )
+
+                            [isTeamKiller] => 
+                        )
+
+                    [12367250] => stdClass Object
+                        (
+                            [vehicleType] => france:AMX_50_100
+                            [isAlive] => 1
+                            [name] => relaag
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [events] => Array
+                                (
+                                )
+
+                            [isTeamKiller] => 
+                        )
+
+                    [12367252] => stdClass Object
+                        (
+                            [vehicleType] => ussr:IS-3
+                            [isAlive] => 1
+                            [name] => Mafju99
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [events] => Array
+                                (
+                                )
+
+                            [isTeamKiller] => 
+                        )
+
+                    [12367256] => stdClass Object
+                        (
+                            [vehicleType] => germany:G103_RU_251
+                            [isAlive] => 1
+                            [name] => phoenixr
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [events] => Array
+                                (
+                                )
+
+                            [isTeamKiller] => 
+                        )
+
+                    [12367257] => stdClass Object
+                        (
+                            [vehicleType] => ussr:IS-3
+                            [isAlive] => 1
+                            [name] => Deddenson
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [events] => Array
+                                (
+                                )
+
+                            [isTeamKiller] => 
+                        )
+
+                    [12367259] => stdClass Object
+                        (
+                            [vehicleType] => france:AMX_50_100
+                            [isAlive] => 1
+                            [name] => karipatila
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [events] => Array
+                                (
+                                )
+
+                            [isTeamKiller] => 
+                        )
+
+                    [12367260] => stdClass Object
+                        (
+                            [vehicleType] => germany:G103_RU_251
+                            [isAlive] => 1
+                            [name] => Corvids_Fall
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [events] => Array
+                                (
+                                )
+
+                            [isTeamKiller] => 
+                        )
+
+                )
+
+            [dateTime] => 02.12.2014 22:13:02
+            [mapName] => 28_desert
+            [playerName] => karipatila
+            [battleType] => 5
+            [playerVehicle] => france-AMX_50_100
+        )
+
+    [datablock_battle_result] => stdClass Object
+        (
+            [personal] => stdClass Object
+                (
+                    [vehTypeLockTime] => 0
+                    [gold] => 0
+                    [creditsToDraw] => 0
+                    [damageAssistedRadio] => 0
+                    [creditsContributionIn] => 0
+                    [eventCredits] => 0
+                    [achievementXP] => 0
+                    [igrXPFactor10] => 10
+                    [aogasFactor10] => 10
+                    [histAmmoCost] => Array
+                        (
+                            [0] => 0
+                            [1] => 0
+                        )
+
+                    [isPrematureLeave] => 
+                    [kills] => 0
+                    [eventTMenXP] => 0
+                    [markOfMastery] => 0
+                    [noDamageDirectHitsReceived] => 0
+                    [damaged_while_moving] => 0
+                    [tkills] => 0
+                    [shots] => 2
+                    [team] => 2
+                    [critsByType] => stdClass Object
+                        (
+                            [destroyed] => Array
+                                (
+                                )
+
+                            [tankman] => Array
+                                (
+                                )
+
+                            [critical] => Array
+                                (
+                                )
+
+                        )
+
+                    [spotted] => 4
+                    [killerID] => 12367277
+                    [premiumCreditsFactor10] => 15
+                    [orderFortResource] => 0
+                    [assistedDamage] => 0
+                    [eventFreeXP] => 0
+                    [innerModuleCritCount] => 0
+                    [creditsContributionOut] => 0
+                    [orderTMenXP] => 0
+                    [health] => 0
+                    [achievements] => Array
+                        (
+                        )
+
+                    [orderFreeXP] => 0
+                    [marksOnGun] => 0
+                    [dossierPopUps] => Array
+                        (
+                        )
+
+                    [tdamageDealt] => 0
+                    [credits] => 4933
+                    [originalXP] => 101
+                    [killed_while_moving] => 0
+                    [assistedKills] => 0
+                    [autoEquipCost] => Array
+                        (
+                            [0] => 0
+                            [1] => 0
+                        )
+
+                    [creditsPenalty] => 0
+                    [damageDealt] => 306
+                    [explosionHits] => 0
+                    [lifeTime] => 116
+                    [directHits] => 1
+                    [dailyXPFactor10] => 10
+                    [damageRating] => 0
+                    [repair] => 11200
+                    [originalCredits] => 3289
+                    [damageAssistedTrack] => 0
+                    [xpPenalty] => 0
+                    [sniperDamageDealt] => 0
+                    [damageBlockedByArmor] => 240
+                    [xp] => 151
+                    [refSystemXPFactor10] => 10
+                    [explosionHitsReceived] => 1
+                    [originalFreeXP] => 5
+                    [movingAvgDamage] => 0
+                    [serviceProviderID] => 0
+                    [orderXP] => 0
+                    [premiumVehicleXP] => 0
+                    [eventGold] => 0
+                    [questsProgress] => Array
+                        (
+                        )
+
+                    [eventXP] => 0
+                    [autoLoadCost] => Array
+                        (
+                            [0] => 8000
+                            [1] => 0
+                        )
+
+                    [achievementFreeXP] => 0
+                    [fortBuilding] => 
+                    [potentialDamageReceived] => 1740
+                    [directTeamHits] => 0
+                    [damageReceived] => 1400
+                    [piercingsReceived] => 7
+                    [orderCredits] => 0
+                    [piercings] => 1
+                    [premiumXPFactor10] => 15
+                    [freeXP] => 7
+                    [fairplayViolations] => Array
+                        (
+                            [0] => 0
+                            [1] => 0
+                        )
+
+                    [droppedCapturePoints] => 0
+                    [directHitsReceived] => 7
+                    [typeCompDescr] => 3137
+                    [deathReason] => 0
+                    [capturePoints] => 0
+                    [details] => stdClass Object
+                        (
+                            [12367251] => stdClass Object
+                                (
+                                    [spotted] => 1
+                                    [crits] => 0
+                                    [damageAssistedTrack] => 0
+                                    [fire] => 0
+                                    [deathReason] => -1
+                                    [damageDealt] => 0
+                                    [damageAssistedRadio] => 0
+                                    [piercings] => 0
+                                    [explosionHits] => 0
+                                    [directHits] => 0
+                                )
+
+                            [12367253] => stdClass Object
+                                (
+                                    [spotted] => 1
+                                    [crits] => 0
+                                    [damageAssistedTrack] => 0
+                                    [fire] => 0
+                                    [deathReason] => -1
+                                    [damageDealt] => 306
+                                    [damageAssistedRadio] => 0
+                                    [piercings] => 1
+                                    [explosionHits] => 0
+                                    [directHits] => 1
+                                )
+
+                            [12367262] => stdClass Object
+                                (
+                                    [spotted] => 1
+                                    [crits] => 0
+                                    [damageAssistedTrack] => 0
+                                    [fire] => 0
+                                    [deathReason] => -1
+                                    [damageDealt] => 0
+                                    [damageAssistedRadio] => 0
+                                    [piercings] => 0
+                                    [explosionHits] => 0
+                                    [directHits] => 0
+                                )
+
+                            [12367263] => stdClass Object
+                                (
+                                    [spotted] => 1
+                                    [crits] => 0
+                                    [damageAssistedTrack] => 0
+                                    [fire] => 0
+                                    [deathReason] => -1
+                                    [damageDealt] => 0
+                                    [damageAssistedRadio] => 0
+                                    [piercings] => 0
+                                    [explosionHits] => 0
+                                    [directHits] => 0
+                                )
+
+                        )
+
+                    [achievementCredits] => 0
+                    [damage_event_list] => 
+                    [isPremium] => 1
+                    [mileage] => 1085
+                    [fortResource] => 
+                    [damaged] => 1
+                    [accountDBID] => 511922213
+                    [autoRepairCost] => 11200
+                    [isTeamKiller] => 
+                    [tmenXP] => 151
+                    [tdestroyedModules] => 
+                )
+
+            [players] => stdClass Object
+                (
+                    [500119296] => stdClass Object
+                        (
+                            [name] => capt_napalm
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [clanDBID] => 500031759
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367248
+                        )
+
+                    [507467911] => stdClass Object
+                        (
+                            [name] => tnmj
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [clanDBID] => 500031759
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367249
+                        )
+
+                    [502588554] => stdClass Object
+                        (
+                            [name] => relaag
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [clanDBID] => 500031759
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367250
+                        )
+
+                    [507347599] => stdClass Object
+                        (
+                            [name] => MissSkyline
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => S4TDD
+                            [team] => 1
+                            [clanDBID] => 500049085
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367251
+                        )
+
+                    [508797331] => stdClass Object
+                        (
+                            [name] => Mafju99
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [clanDBID] => 500031759
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367252
+                        )
+
+                    [516274711] => stdClass Object
+                        (
+                            [name] => Deathkn1ght
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => S4TDD
+                            [team] => 1
+                            [clanDBID] => 500049085
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367253
+                        )
+
+                    [504285080] => stdClass Object
+                        (
+                            [name] => xXMadeOfSteelXx
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => S4TDD
+                            [team] => 1
+                            [clanDBID] => 500049085
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367254
+                        )
+
+                    [507097882] => stdClass Object
+                        (
+                            [name] => Hetler27
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => S4TDD
+                            [team] => 1
+                            [clanDBID] => 500049085
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367255
+                        )
+
+                    [502003227] => stdClass Object
+                        (
+                            [name] => phoenixr
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [clanDBID] => 500031759
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367256
+                        )
+
+                    [500573601] => stdClass Object
+                        (
+                            [name] => Deddenson
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [clanDBID] => 500031759
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367257
+                        )
+
+                    [500319908] => stdClass Object
+                        (
+                            [name] => hRdyy
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => S4TDD
+                            [team] => 1
+                            [clanDBID] => 500049085
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367258
+                        )
+
+                    [511922213] => stdClass Object
+                        (
+                            [name] => karipatila
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [clanDBID] => 500031759
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367259
+                        )
+
+                    [501033775] => stdClass Object
+                        (
+                            [name] => Corvids_Fall
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [clanDBID] => 500031759
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367260
+                        )
+
+                    [514531638] => stdClass Object
+                        (
+                            [name] => Lefexel
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [clanDBID] => 500031759
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367264
+                        )
+
+                    [501805623] => stdClass Object
+                        (
+                            [name] => xuske
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => S4TDD
+                            [team] => 1
+                            [clanDBID] => 500049085
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367262
+                        )
+
+                    [510863546] => stdClass Object
+                        (
+                            [name] => Psaicon
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => S4TDD
+                            [team] => 1
+                            [clanDBID] => 500049085
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367263
+                        )
+
+                    [506061238] => stdClass Object
+                        (
+                            [name] => Tomlabong
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => S4TDD
+                            [team] => 1
+                            [clanDBID] => 500049085
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367261
+                        )
+
+                    [500206282] => stdClass Object
+                        (
+                            [name] => Crazy_Mayes
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [clanDBID] => 500031759
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367265
+                        )
+
+                    [500287825] => stdClass Object
+                        (
+                            [name] => TheUnforgiven
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => S4TDD
+                            [team] => 1
+                            [clanDBID] => 500049085
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367266
+                        )
+
+                    [504507347] => stdClass Object
+                        (
+                            [name] => Sly96
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => S4TDD
+                            [team] => 1
+                            [clanDBID] => 500049085
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367267
+                        )
+
+                    [501905240] => stdClass Object
+                        (
+                            [name] => Vteec
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [clanDBID] => 500031759
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367268
+                        )
+
+                    [508396121] => stdClass Object
+                        (
+                            [name] => Vracaras
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [clanDBID] => 500031759
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367269
+                        )
+
+                    [509450810] => stdClass Object
+                        (
+                            [name] => lippel89
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => S4TDD
+                            [team] => 1
+                            [clanDBID] => 500049085
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367270
+                        )
+
+                    [511513310] => stdClass Object
+                        (
+                            [name] => PetiteDwarf
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [clanDBID] => 500031759
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367271
+                        )
+
+                    [500846182] => stdClass Object
+                        (
+                            [name] => Skorce
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [clanDBID] => 500031759
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367272
+                        )
+
+                    [502426108] => stdClass Object
+                        (
+                            [name] => Quetschk0mode
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => S4TDD
+                            [team] => 1
+                            [clanDBID] => 500049085
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367277
+                        )
+
+                    [504663020] => stdClass Object
+                        (
+                            [name] => Dark_warsmith
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => QSF-E
+                            [team] => 2
+                            [clanDBID] => 500031759
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367274
+                        )
+
+                    [501047412] => stdClass Object
+                        (
+                            [name] => Magic_Tank
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => S4TDD
+                            [team] => 1
+                            [clanDBID] => 500049085
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367275
+                        )
+
+                    [501377019] => stdClass Object
+                        (
+                            [name] => xardum
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => S4TDD
+                            [team] => 1
+                            [clanDBID] => 500049085
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367276
+                        )
+
+                    [500811132] => stdClass Object
+                        (
+                            [name] => Totaku83
+                            [prebattleID] => 11926620
+                            [igrType] => 0
+                            [clanAbbrev] => S4TDD
+                            [team] => 1
+                            [clanDBID] => 500049085
+                            [platoonID] => 11926620
+                            [vehicleid] => 12367273
+                        )
+
+                )
+
+            [vehicles] => stdClass Object
+                (
+                    [12367248] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 1020
+                            [killerID] => 12367261
+                            [directTeamHits] => 0
+                            [damageDealt] => 458
+                            [piercingsReceived] => 4
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 0
+                            [piercings] => 4
+                            [damageBlockedByArmor] => 0
+                            [xp] => 163
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 4
+                            [innerModuleCritCount] => 0
+                            [explosionHitsReceived] => 1
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => -4
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 1976
+                            [shots] => 6
+                            [kills] => 0
+                            [fortResource] => 
+                            [damaged] => 1
+                            [tdamageDealt] => 0
+                            [credits] => 5348
+                            [lifeTime] => 213
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 500119296
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 4929
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 860
+                            [damageReceived] => 1100
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 2
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => stdClass Object
+                                        (
+                                            [track] => 1
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [track] => 1
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 4
+                        )
+
+                    [12367249] => stdClass Object
+                        (
+                            [spotted] => 2
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367258
+                            [directTeamHits] => 0
+                            [damageDealt] => 1150
+                            [piercingsReceived] => 6
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 0
+                            [piercings] => 4
+                            [damageBlockedByArmor] => 540
+                            [xp] => 173
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 8
+                            [innerModuleCritCount] => 2
+                            [explosionHitsReceived] => 1
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 1103
+                            [shots] => 6
+                            [kills] => 1
+                            [fortResource] => 
+                            [damaged] => 2
+                            [tdamageDealt] => 0
+                            [credits] => 6859
+                            [lifeTime] => 132
+                            [noDamageDirectHitsReceived] => 2
+                            [gold] => 0
+                            [accountDBID] => 507467911
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 3137
+                            [damaged_while_moving] => 1
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 2160
+                            [damageReceived] => 1400
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 2
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => stdClass Object
+                                        (
+                                            [engine] => 1
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [engine] => 1
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 4
+                        )
+
+                    [12367250] => stdClass Object
+                        (
+                            [spotted] => 1
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367277
+                            [directTeamHits] => 0
+                            [damageDealt] => 500
+                            [piercingsReceived] => 6
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 0
+                            [piercings] => 2
+                            [damageBlockedByArmor] => 0
+                            [xp] => 125
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 6
+                            [innerModuleCritCount] => 1
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 1056
+                            [shots] => 3
+                            [kills] => 1
+                            [fortResource] => 
+                            [damaged] => 1
+                            [tdamageDealt] => 0
+                            [credits] => 3968
+                            [lifeTime] => 122
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 502588554
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 3137
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 1500
+                            [damageReceived] => 1400
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 2
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => Array
+                                        (
+                                        )
+
+                                    [tankman] => stdClass Object
+                                        (
+                                            [driver] => 1
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [track] => 1
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 3
+                        )
+
+                    [12367251] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367271
+                            [directTeamHits] => 0
+                            [damageDealt] => 447
+                            [piercingsReceived] => 4
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 245
+                            [piercings] => 2
+                            [damageBlockedByArmor] => 0
+                            [xp] => 667
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 4
+                            [innerModuleCritCount] => 0
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 1657
+                            [shots] => 6
+                            [kills] => 0
+                            [fortResource] => 
+                            [damaged] => 1
+                            [tdamageDealt] => 0
+                            [credits] => 17118
+                            [lifeTime] => 199
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 507347599
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 4929
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 1260
+                            [damageReceived] => 1100
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 1
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => Array
+                                        (
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 3
+                        )
+
+                    [12367252] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367262
+                            [directTeamHits] => 0
+                            [damageDealt] => 1109
+                            [piercingsReceived] => 6
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 121
+                            [piercings] => 3
+                            [damageBlockedByArmor] => 780
+                            [xp] => 181
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 9
+                            [innerModuleCritCount] => 0
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 1688
+                            [shots] => 3
+                            [kills] => 1
+                            [fortResource] => 
+                            [damaged] => 3
+                            [tdamageDealt] => 0
+                            [credits] => 6892
+                            [lifeTime] => 223
+                            [noDamageDirectHitsReceived] => 3
+                            [gold] => 0
+                            [accountDBID] => 508797331
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 5377
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 2300
+                            [damageReceived] => 1500
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 2
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => Array
+                                        (
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [track] => 1
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 3
+                        )
+
+                    [12367253] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367250
+                            [directTeamHits] => 0
+                            [damageDealt] => 712
+                            [piercingsReceived] => 5
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 0
+                            [piercings] => 3
+                            [damageBlockedByArmor] => 0
+                            [xp] => 681
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 5
+                            [innerModuleCritCount] => 1
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 703
+                            [shots] => 4
+                            [kills] => 0
+                            [fortResource] => 
+                            [damaged] => 2
+                            [tdamageDealt] => 0
+                            [credits] => 18544
+                            [lifeTime] => 120
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 516274711
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 4929
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 1200
+                            [damageReceived] => 1100
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 1
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => Array
+                                        (
+                                        )
+
+                                    [tankman] => stdClass Object
+                                        (
+                                            [commander] => 1
+                                        )
+
+                                    [critical] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 3
+                        )
+
+                    [12367254] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367257
+                            [directTeamHits] => 0
+                            [damageDealt] => 0
+                            [piercingsReceived] => 2
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 0
+                            [piercings] => 0
+                            [damageBlockedByArmor] => 0
+                            [xp] => 523
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 2
+                            [innerModuleCritCount] => 0
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 246
+                            [shots] => 1
+                            [kills] => 0
+                            [fortResource] => 
+                            [damaged] => 0
+                            [tdamageDealt] => 0
+                            [credits] => 13560
+                            [lifeTime] => 139
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 504285080
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 7457
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 390
+                            [damageReceived] => 400
+                            [fortBuilding] => 
+                            [explosionHits] => 2
+                            [team] => 1
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => Array
+                                        (
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 0
+                        )
+
+                    [12367255] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367260
+                            [directTeamHits] => 0
+                            [damageDealt] => 306
+                            [piercingsReceived] => 7
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 0
+                            [piercings] => 1
+                            [damageBlockedByArmor] => 960
+                            [xp] => 621
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 11
+                            [innerModuleCritCount] => 0
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 466
+                            [shots] => 2
+                            [kills] => 0
+                            [fortResource] => 
+                            [damaged] => 1
+                            [tdamageDealt] => 0
+                            [credits] => 17425
+                            [lifeTime] => 155
+                            [noDamageDirectHitsReceived] => 4
+                            [gold] => 0
+                            [accountDBID] => 507097882
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 4385
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 2640
+                            [damageReceived] => 1550
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 1
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => Array
+                                        (
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 1
+                        )
+
+                    [12367256] => stdClass Object
+                        (
+                            [spotted] => 4
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367275
+                            [directTeamHits] => 0
+                            [damageDealt] => 1229
+                            [piercingsReceived] => 6
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 63
+                            [piercings] => 6
+                            [damageBlockedByArmor] => 0
+                            [xp] => 196
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 6
+                            [innerModuleCritCount] => 0
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 1732
+                            [shots] => 9
+                            [kills] => 0
+                            [fortResource] => 
+                            [damaged] => 6
+                            [tdamageDealt] => 0
+                            [credits] => 6394
+                            [lifeTime] => 222
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 502003227
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 18449
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 1540
+                            [damageReceived] => 1200
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 2
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => Array
+                                        (
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [track] => 1
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 7
+                        )
+
+                    [12367257] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367261
+                            [directTeamHits] => 0
+                            [damageDealt] => 2033
+                            [piercingsReceived] => 8
+                            [sniperDamageDealt] => 63
+                            [damageAssistedRadio] => 0
+                            [piercings] => 7
+                            [damageBlockedByArmor] => 1440
+                            [xp] => 288
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 13
+                            [innerModuleCritCount] => 1
+                            [explosionHitsReceived] => 1
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => -4
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 2024
+                            [shots] => 12
+                            [kills] => 4
+                            [fortResource] => 
+                            [damaged] => 5
+                            [tdamageDealt] => 0
+                            [credits] => 9888
+                            [lifeTime] => 324
+                            [noDamageDirectHitsReceived] => 5
+                            [gold] => 0
+                            [accountDBID] => 500573601
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 5377
+                            [damaged_while_moving] => 1
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 2700
+                            [damageReceived] => 1500
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 2
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => stdClass Object
+                                        (
+                                            [track] => 1
+                                        )
+
+                                    [tankman] => stdClass Object
+                                        (
+                                            [driver] => 1
+                                        )
+
+                                    [critical] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 7
+                        )
+
+                    [12367258] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367260
+                            [directTeamHits] => 0
+                            [damageDealt] => 994
+                            [piercingsReceived] => 4
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 31
+                            [piercings] => 4
+                            [damageBlockedByArmor] => 0
+                            [xp] => 755
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 4
+                            [innerModuleCritCount] => 0
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 1547
+                            [shots] => 5
+                            [kills] => 1
+                            [fortResource] => 
+                            [damaged] => 3
+                            [tdamageDealt] => 0
+                            [credits] => 22535
+                            [lifeTime] => 200
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 500319908
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 3137
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 1110
+                            [damageReceived] => 1400
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 1
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => Array
+                                        (
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 4
+                        )
+
+                    [12367259] => stdClass Object
+                        (
+                            [spotted] => 4
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367277
+                            [directTeamHits] => 0
+                            [damageDealt] => 306
+                            [piercingsReceived] => 7
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 0
+                            [piercings] => 1
+                            [damageBlockedByArmor] => 240
+                            [xp] => 101
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 7
+                            [innerModuleCritCount] => 0
+                            [explosionHitsReceived] => 1
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 1085
+                            [shots] => 2
+                            [kills] => 0
+                            [fortResource] => 
+                            [damaged] => 1
+                            [tdamageDealt] => 0
+                            [credits] => 3289
+                            [lifeTime] => 116
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 511922213
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 3137
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 1740
+                            [damageReceived] => 1400
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 2
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => Array
+                                        (
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 1
+                        )
+
+                    [12367260] => stdClass Object
+                        (
+                            [spotted] => 1
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367275
+                            [directTeamHits] => 0
+                            [damageDealt] => 1001
+                            [piercingsReceived] => 4
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 0
+                            [piercings] => 5
+                            [damageBlockedByArmor] => 0
+                            [xp] => 181
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 4
+                            [innerModuleCritCount] => 0
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 2068
+                            [shots] => 9
+                            [kills] => 2
+                            [fortResource] => 
+                            [damaged] => 3
+                            [tdamageDealt] => 0
+                            [credits] => 5341
+                            [lifeTime] => 205
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 501033775
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 18449
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 1200
+                            [damageReceived] => 1200
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 2
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => stdClass Object
+                                        (
+                                            [surveyingDevice] => 1
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [track] => 1
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 6
+                        )
+
+                    [12367261] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 0
+                            [directTeamHits] => 0
+                            [damageDealt] => 2417
+                            [piercingsReceived] => 0
+                            [sniperDamageDealt] => 2417
+                            [damageAssistedRadio] => 0
+                            [piercings] => 5
+                            [damageBlockedByArmor] => 0
+                            [xp] => 992
+                            [droppedCapturePoints] => 46
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 0
+                            [innerModuleCritCount] => 4
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => -1
+                            [capturePoints] => 0
+                            [health] => 390
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 766
+                            [shots] => 10
+                            [kills] => 3
+                            [fortResource] => 
+                            [damaged] => 5
+                            [tdamageDealt] => 0
+                            [credits] => 27468
+                            [lifeTime] => 414
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 506061238
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 7489
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 0
+                            [damageReceived] => 0
+                            [fortBuilding] => 
+                            [explosionHits] => 7
+                            [team] => 1
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => stdClass Object
+                                        (
+                                            [track] => 4
+                                            [fuelTank] => 1
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [track] => 3
+                                            [fuelTank] => 3
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 5
+                        )
+
+                    [12367262] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367257
+                            [directTeamHits] => 0
+                            [damageDealt] => 2136
+                            [piercingsReceived] => 3
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 44
+                            [piercings] => 11
+                            [damageBlockedByArmor] => 0
+                            [xp] => 1152
+                            [droppedCapturePoints] => 11
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 3
+                            [innerModuleCritCount] => 1
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 2379
+                            [shots] => 19
+                            [kills] => 4
+                            [fortResource] => 
+                            [damaged] => 6
+                            [tdamageDealt] => 0
+                            [credits] => 26943
+                            [lifeTime] => 294
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 501805623
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 18449
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 1170
+                            [damageReceived] => 1200
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 1
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => stdClass Object
+                                        (
+                                            [track] => 1
+                                            [ammoBay] => 1
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [track] => 1
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 15
+                        )
+
+                    [12367263] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367265
+                            [directTeamHits] => 0
+                            [damageDealt] => 1159
+                            [piercingsReceived] => 4
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 31
+                            [piercings] => 6
+                            [damageBlockedByArmor] => 0
+                            [xp] => 799
+                            [droppedCapturePoints] => 28
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 4
+                            [innerModuleCritCount] => 2
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 1766
+                            [shots] => 6
+                            [kills] => 0
+                            [fortResource] => 
+                            [damaged] => 4
+                            [tdamageDealt] => 0
+                            [credits] => 21784
+                            [lifeTime] => 211
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 510863546
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 4929
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 1230
+                            [damageReceived] => 1100
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 1
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => Array
+                                        (
+                                        )
+
+                                    [tankman] => stdClass Object
+                                        (
+                                            [driver] => 1
+                                            [commander] => 1
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [gun] => 1
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 6
+                        )
+
+                    [12367264] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367262
+                            [directTeamHits] => 0
+                            [damageDealt] => 374
+                            [piercingsReceived] => 7
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 121
+                            [piercings] => 1
+                            [damageBlockedByArmor] => 960
+                            [xp] => 112
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 11
+                            [innerModuleCritCount] => 0
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => -2
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 1565
+                            [shots] => 3
+                            [kills] => 0
+                            [fortResource] => 
+                            [damaged] => 1
+                            [tdamageDealt] => 0
+                            [credits] => 3963
+                            [lifeTime] => 194
+                            [noDamageDirectHitsReceived] => 4
+                            [gold] => 0
+                            [accountDBID] => 514531638
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 5377
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 2720
+                            [damageReceived] => 1500
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 2
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => Array
+                                        (
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 1
+                        )
+
+                    [12367265] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367262
+                            [directTeamHits] => 0
+                            [damageDealt] => 793
+                            [piercingsReceived] => 5
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 0
+                            [piercings] => 4
+                            [damageBlockedByArmor] => 0
+                            [xp] => 185
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 5
+                            [innerModuleCritCount] => 1
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 2249
+                            [shots] => 6
+                            [kills] => 2
+                            [fortResource] => 
+                            [damaged] => 3
+                            [tdamageDealt] => 0
+                            [credits] => 4559
+                            [lifeTime] => 252
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 500206282
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 4929
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 1200
+                            [damageReceived] => 1100
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 2
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => Array
+                                        (
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [track] => 1
+                                            [ammoBay] => 1
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 5
+                        )
+
+                    [12367266] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367249
+                            [directTeamHits] => 0
+                            [damageDealt] => 499
+                            [piercingsReceived] => 4
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 0
+                            [piercings] => 2
+                            [damageBlockedByArmor] => 0
+                            [xp] => 635
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 4
+                            [innerModuleCritCount] => 0
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 751
+                            [shots] => 3
+                            [kills] => 0
+                            [fortResource] => 
+                            [damaged] => 1
+                            [tdamageDealt] => 0
+                            [credits] => 17053
+                            [lifeTime] => 122
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 500287825
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 4929
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 1200
+                            [damageReceived] => 1100
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 1
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => Array
+                                        (
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 2
+                        )
+
+                    [12367267] => stdClass Object
+                        (
+                            [spotted] => 9
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367252
+                            [directTeamHits] => 0
+                            [damageDealt] => 693
+                            [piercingsReceived] => 5
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 356
+                            [piercings] => 3
+                            [damageBlockedByArmor] => 0
+                            [xp] => 760
+                            [droppedCapturePoints] => 3
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 5
+                            [innerModuleCritCount] => 0
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 1837
+                            [shots] => 6
+                            [kills] => 0
+                            [fortResource] => 
+                            [damaged] => 2
+                            [tdamageDealt] => 0
+                            [credits] => 19859
+                            [lifeTime] => 219
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 504507347
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 4929
+                            [damaged_while_moving] => 1
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 1110
+                            [damageReceived] => 1100
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 1
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => Array
+                                        (
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [track] => 1
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 3
+                        )
+
+                    [12367268] => stdClass Object
+                        (
+                            [spotted] => 1
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367261
+                            [directTeamHits] => 0
+                            [damageDealt] => 1374
+                            [piercingsReceived] => 5
+                            [sniperDamageDealt] => 363
+                            [damageAssistedRadio] => 0
+                            [piercings] => 6
+                            [damageBlockedByArmor] => 240
+                            [xp] => 169
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 6
+                            [innerModuleCritCount] => 2
+                            [explosionHitsReceived] => 1
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => -4
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 1634
+                            [shots] => 12
+                            [kills] => 0
+                            [fortResource] => 
+                            [damaged] => 2
+                            [tdamageDealt] => 0
+                            [credits] => 7672
+                            [lifeTime] => 408
+                            [noDamageDirectHitsReceived] => 1
+                            [gold] => 0
+                            [accountDBID] => 501905240
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 4385
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 720
+                            [damageReceived] => 1550
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 2
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => stdClass Object
+                                        (
+                                            [track] => 1
+                                            [turretRotator] => 1
+                                        )
+
+                                    [tankman] => stdClass Object
+                                        (
+                                            [gunner] => 1
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [track] => 1
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 6
+                        )
+
+                    [12367269] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367270
+                            [directTeamHits] => 0
+                            [damageDealt] => 1413
+                            [piercingsReceived] => 3
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 0
+                            [piercings] => 6
+                            [damageBlockedByArmor] => 0
+                            [xp] => 182
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 3
+                            [innerModuleCritCount] => 1
+                            [explosionHitsReceived] => 2
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 2040
+                            [shots] => 9
+                            [kills] => 0
+                            [fortResource] => 
+                            [damaged] => 3
+                            [tdamageDealt] => 0
+                            [credits] => 6905
+                            [lifeTime] => 227
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 508396121
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 4929
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 800
+                            [damageReceived] => 1100
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 2
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => Array
+                                        (
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [fuelTank] => 1
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 7
+                        )
+
+                    [12367270] => stdClass Object
+                        (
+                            [spotted] => 5
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 872
+                            [killerID] => 0
+                            [directTeamHits] => 0
+                            [damageDealt] => 2438
+                            [piercingsReceived] => 4
+                            [sniperDamageDealt] => 1028
+                            [damageAssistedRadio] => 989
+                            [piercings] => 14
+                            [damageBlockedByArmor] => 0
+                            [xp] => 1425
+                            [droppedCapturePoints] => 90
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 4
+                            [innerModuleCritCount] => 3
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => -1
+                            [capturePoints] => 0
+                            [health] => 500
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 3353
+                            [shots] => 30
+                            [kills] => 2
+                            [fortResource] => 
+                            [damaged] => 8
+                            [tdamageDealt] => 0
+                            [credits] => 35743
+                            [lifeTime] => 414
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 509450810
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 18449
+                            [damaged_while_moving] => 1
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 640
+                            [damageReceived] => 700
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 1
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => stdClass Object
+                                        (
+                                            [track] => 2
+                                            [fuelTank] => 1
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [track] => 2
+                                            [ammoBay] => 1
+                                            [radio] => 1
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 22
+                        )
+
+                    [12367271] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367262
+                            [directTeamHits] => 0
+                            [damageDealt] => 799
+                            [piercingsReceived] => 5
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 121
+                            [piercings] => 4
+                            [damageBlockedByArmor] => 0
+                            [xp] => 185
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 5
+                            [innerModuleCritCount] => 0
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 2165
+                            [shots] => 6
+                            [kills] => 1
+                            [fortResource] => 
+                            [damaged] => 3
+                            [tdamageDealt] => 0
+                            [credits] => 4968
+                            [lifeTime] => 234
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 511513310
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 4929
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 1200
+                            [damageReceived] => 1100
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 2
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => stdClass Object
+                                        (
+                                            [track] => 1
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 5
+                        )
+
+                    [12367272] => stdClass Object
+                        (
+                            [spotted] => 2
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 583
+                            [killerID] => 12367275
+                            [directTeamHits] => 0
+                            [damageDealt] => 902
+                            [piercingsReceived] => 6
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 0
+                            [piercings] => 3
+                            [damageBlockedByArmor] => 0
+                            [xp] => 153
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 6
+                            [innerModuleCritCount] => 0
+                            [explosionHitsReceived] => 1
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => -4
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 1155
+                            [shots] => 4
+                            [kills] => 0
+                            [fortResource] => 
+                            [damaged] => 2
+                            [tdamageDealt] => 0
+                            [credits] => 7032
+                            [lifeTime] => 120
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 500846182
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 3137
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 1560
+                            [damageReceived] => 1400
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 2
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => stdClass Object
+                                        (
+                                            [track] => 2
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 3
+                        )
+
+                    [12367273] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 727
+                            [killerID] => 0
+                            [directTeamHits] => 0
+                            [damageDealt] => 3712
+                            [piercingsReceived] => 4
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 337
+                            [piercings] => 15
+                            [damageBlockedByArmor] => 0
+                            [xp] => 1383
+                            [droppedCapturePoints] => 22
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 4
+                            [innerModuleCritCount] => 3
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => -1
+                            [capturePoints] => 0
+                            [health] => 131
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 3302
+                            [shots] => 19
+                            [kills] => 0
+                            [fortResource] => 
+                            [damaged] => 8
+                            [tdamageDealt] => 0
+                            [credits] => 42448
+                            [lifeTime] => 414
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 500811132
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 4929
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 880
+                            [damageReceived] => 969
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 1
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => stdClass Object
+                                        (
+                                            [track] => 2
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [ammoBay] => 3
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 18
+                        )
+
+                    [12367274] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367270
+                            [directTeamHits] => 0
+                            [damageDealt] => 2344
+                            [piercingsReceived] => 7
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 0
+                            [piercings] => 7
+                            [damageBlockedByArmor] => 960
+                            [xp] => 236
+                            [droppedCapturePoints] => 0
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 9
+                            [innerModuleCritCount] => 0
+                            [explosionHitsReceived] => 1
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 2119
+                            [shots] => 13
+                            [kills] => 0
+                            [fortResource] => 
+                            [damaged] => 6
+                            [tdamageDealt] => 0
+                            [credits] => 11139
+                            [lifeTime] => 352
+                            [noDamageDirectHitsReceived] => 2
+                            [gold] => 0
+                            [accountDBID] => 504663020
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 5377
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 1920
+                            [damageReceived] => 1500
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 2
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => Array
+                                        (
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [track] => 1
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 7
+                        )
+
+                    [12367275] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367257
+                            [directTeamHits] => 1
+                            [damageDealt] => 1627
+                            [piercingsReceived] => 5
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 31
+                            [piercings] => 8
+                            [damageBlockedByArmor] => 0
+                            [xp] => 1027
+                            [droppedCapturePoints] => 5
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 5
+                            [innerModuleCritCount] => 1
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 1724
+                            [shots] => 9
+                            [kills] => 3
+                            [fortResource] => 
+                            [damaged] => 4
+                            [tdamageDealt] => 284
+                            [credits] => 27554
+                            [lifeTime] => 234
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 501047412
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 3137
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 1800
+                            [damageReceived] => 1400
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 1
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => stdClass Object
+                                        (
+                                            [track] => 2
+                                        )
+
+                                    [tankman] => Array
+                                        (
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [engine] => 1
+                                            [track] => 1
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 9
+                        )
+
+                    [12367276] => stdClass Object
+                        (
+                            [spotted] => 1
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367265
+                            [directTeamHits] => 0
+                            [damageDealt] => 1623
+                            [piercingsReceived] => 8
+                            [sniperDamageDealt] => 325
+                            [damageAssistedRadio] => 619
+                            [piercings] => 5
+                            [damageBlockedByArmor] => 480
+                            [xp] => 883
+                            [droppedCapturePoints] => 9
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 9
+                            [innerModuleCritCount] => 2
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 351
+                            [shots] => 7
+                            [kills] => 0
+                            [fortResource] => 
+                            [damaged] => 4
+                            [tdamageDealt] => 0
+                            [credits] => 30301
+                            [lifeTime] => 188
+                            [noDamageDirectHitsReceived] => 1
+                            [gold] => 0
+                            [accountDBID] => 501377019
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 4385
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 1980
+                            [damageReceived] => 1550
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 1
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => Array
+                                        (
+                                        )
+
+                                    [tankman] => stdClass Object
+                                        (
+                                            [gunner] => 1
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [track] => 3
+                                            [ammoBay] => 1
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 5
+                        )
+
+                    [12367277] => stdClass Object
+                        (
+                            [spotted] => 0
+                            [damage_event_list] => 
+                            [damageAssistedTrack] => 0
+                            [killerID] => 12367257
+                            [directTeamHits] => 0
+                            [damageDealt] => 1176
+                            [piercingsReceived] => 5
+                            [sniperDamageDealt] => 0
+                            [damageAssistedRadio] => 31
+                            [piercings] => 6
+                            [damageBlockedByArmor] => 0
+                            [xp] => 895
+                            [droppedCapturePoints] => 42
+                            [assistedDamage] => 0
+                            [directHitsReceived] => 5
+                            [innerModuleCritCount] => 2
+                            [explosionHitsReceived] => 0
+                            [achievementXP] => 0
+                            [deathReason] => 0
+                            [capturePoints] => 0
+                            [health] => 0
+                            [isPrematureLeave] => 
+                            [achievementCredits] => 0
+                            [achievements] => Array
+                                (
+                                )
+
+                            [mileage] => 1447
+                            [shots] => 7
+                            [kills] => 2
+                            [fortResource] => 
+                            [damaged] => 6
+                            [tdamageDealt] => 0
+                            [credits] => 23978
+                            [lifeTime] => 211
+                            [noDamageDirectHitsReceived] => 0
+                            [gold] => 0
+                            [accountDBID] => 502426108
+                            [isTeamKiller] => 
+                            [typeCompDescr] => 3137
+                            [damaged_while_moving] => 0
+                            [killed_while_moving] => 0
+                            [assistedKills] => 0
+                            [tkills] => 0
+                            [potentialDamageReceived] => 1500
+                            [damageReceived] => 1400
+                            [fortBuilding] => 
+                            [explosionHits] => 0
+                            [team] => 1
+                            [tdestroyedModules] => 
+                            [critsByType] => stdClass Object
+                                (
+                                    [destroyed] => Array
+                                        (
+                                        )
+
+                                    [tankman] => stdClass Object
+                                        (
+                                            [commander] => 1
+                                        )
+
+                                    [critical] => stdClass Object
+                                        (
+                                            [track] => 3
+                                            [fuelTank] => 1
+                                        )
+
+                                )
+
+                            [achievementFreeXP] => 0
+                            [directHits] => 7
+                        )
+
+                )
+
+            [common] => stdClass Object
+                (
+                    [finishReason] => 1
+                    [guiType] => 0
+                    [arenaCreateTime] => 1417551156
+                    [duration] => 414.1
+                    [arenaTypeID] => 13
+                    [winnerTeam] => 1
+                    [vehLockMode] => 0
+                    [bonusType] => 5
+                    [sortieDivision] => 
+                )
+
+            [arenaUniqueID] => 27243099235163444
+        )
+
+)
