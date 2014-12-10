@@ -1,0 +1,71 @@
+html {
+	background: #000 url('../3.jpg') top center no-repeat;
+}
+
+#container {
+	width:960px;
+	margin:0 auto;
+}
+
+#loginbox {
+	width:310px;
+	margin: 0 auto;
+	padding:20px;
+	text-align:center;
+}
+
+#loginbox h1 {
+	font-size:78px;
+	font-weight:bold;
+	line-height:64px;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+}
+
+#loginbox a {
+	display:block;
+	text-indent:-9999px;
+	width:310px;
+	height:336px;
+	margin-top:60px;
+	background:url('../QSF-login.png') center center no-repeat;
+	background-size:100%;
+	transition: background-size 0.1s ease-in;
+	-moz-transition: background-size 0.1s ease-in;
+	-ms-transition: background-size 0.1s ease-in;
+	-o-transition: background-size 0.1s ease-in;
+	-webkit-transition: background-size 0.1s ease-in;
+}
+
+#loginbox a:active {
+	background-size:90% !important;
+}
+
+table.tanks {
+	float:left;
+	width:300px;
+	margin-right:20px;
+}
+
+table.tanks td {
+	padding:5px 10px;
+	border-left: 1px solid rgba(255,255,255,0.2);
+	font-size:12px;
+	vertical-align:middle;
+}
+
+table.tanks td.cw {
+	border-left:1px solid green;
+}
+
+table.tanks thead {
+	font-weight:bold;
+}
+
+table.tanks thead td {
+
+}
+
+table.tanks td:first-child {
+	width:60px;
+	border:0px none;
+}
