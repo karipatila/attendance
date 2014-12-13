@@ -1,10 +1,60 @@
 html {
-	background: #000 url('../3.jpg') top center no-repeat;
+	background: rgb(2,2,2) url('../3.jpg') top center no-repeat;
+}
+
+h1 img {
+	float:left;
+	margin-bottom: 15px;
+	margin-top: -20px;
+	padding-right: 15px;
+}
+
+h1 {
+	padding:25px 0;
+	margin-top:60px;
+}
+
+form {
+	clear:both;
+	margin-bottom:40px;
+	padding-bottom:20px;
+	border-bottom:1px dotted #fff;
+}
+
+#submitTanks {
+	clear:both;
+}
+
+#submit {
+	float:right;
+	margin-top:26px;
 }
 
 #container {
 	width:960px;
 	margin:0 auto;
+}
+
+#logout, #settings {
+	float:right;
+	text-align:center;
+	margin-top:-20px;
+	display:block;
+	width:60px;
+	height:60px;
+	padding:20px;
+	background:rgba(255,255,255,0.1);
+	border:1px solid rgba(255,255,255,0.1);
+	border-radius:50%;
+}
+
+#settings {
+	margin-right:10px;
+}
+
+#logout a, #settings a {
+	position:relative;
+	top:18px;
 }
 
 #loginbox {
@@ -40,15 +90,64 @@ html {
 	background-size:90% !important;
 }
 
+fieldset {
+	margin-top:62px;
+	background:rgba(0,0,0,0.25);
+}
+
+legend {
+	padding: 10px;
+	font-weight:bold;
+	background:rgba(0,0,0,0.25);
+	position:relative;
+	top:-22px;
+}
+
+#roster td {
+	border-right: 1px solid rgba(255,255,255,0.2);
+	text-align:center;
+	vertical-align: middle;
+}
+
+#roster td.first {
+	text-align:left !important;
+	padding-left:45px !important;
+}
+
+#roster th.first {
+	text-align:left !important;
+	padding-left:15px !important;
+}
+
+#roster tr.personal {
+	background:rgba(255,140,0,0.25);
+}
+
+#roster tfoot th {
+	color:red;
+}
+
+#roster th.green {
+	color:green !important;
+}
+
+#tanktable {
+	clear:both;
+	margin-top:60px;
+}
+
 table.tanks {
 	float:left;
-	width:300px;
+	width:306px;
 	margin-right:20px;
+}
+
+table.last {
+	margin-right:0px !important;
 }
 
 table.tanks td {
 	padding:5px 10px;
-	border-left: 1px solid rgba(255,255,255,0.2);
 	font-size:12px;
 	vertical-align:middle;
 }
@@ -61,11 +160,18 @@ table.tanks thead {
 	font-weight:bold;
 }
 
-table.tanks thead td {
-
+#roster td.highlight {
+	background:rgba(255,140,0,0.1) !important;
 }
 
-table.tanks td:first-child {
+table.tanks td:nth-child(2) {
+	border-left: 1px solid rgba(255,255,255,0.2);
+}
+
+table.tanks td.icon {
 	width:60px;
-	border:0px none;
+}
+
+table.tanks td.box {
+	width:10px !important;
 }
