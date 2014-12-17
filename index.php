@@ -14,7 +14,7 @@
 		u406288039_comm :: J0HlJjlqV08O
 	*/
 	
-	$baseURL = 'http://apcr.hol.es/attendance/';
+	$baseURL = 'http://apcr.hol.es/roster/';
 	
 	# Application ID registered to Wargaming (by karipatila)
 	$applicationID = 'b4319422268043312f2b98daad5e7040';
@@ -53,16 +53,28 @@
 		<div id="loginbox">
 			<h1>ROSTER</h1>
 			<p>Sign in with your World of Tanks account</p>
-			<p><a href="https://api.worldoftanks.eu/wot/auth/login/?application_id=<?php echo $applicationID; ?>&redirect_uri=http://apcr.hol.es/attendance/">OpenID Login</a></p>
+			<p><a href="https://api.worldoftanks.eu/wot/auth/login/?application_id=<?php echo $applicationID; ?>&redirect_uri=http://apcr.hol.es/roster/">OpenID Login</a></p>
 		</div>
 	<?php } elseif(!isset($_COOKIE['wotm8'])) {
 		$token = $_GET['access_token'];
 		$id = $_GET['account_id'];
 		$nick = $_GET['nickname'];
-		setcookie("wotm8[token]", $token, time()+432000);
-		setcookie("wotm8[id]", $id, time()+432000);
-		setcookie("wotm8[nick]", $nick, time()+432000);
-		header("Location: ".$baseURL);
+		
+		$clans = array('QSF','QSF-C','QSF-E','QSF-L','QSF-X', 'WHO');
+		$playerInfoRequest = 'http://api.worldoftanks.eu/wot/clan/membersinfo/?application_id='.$applicationID.'&member_id='.$id;
+		$json = file_get_contents($playerInfoRequest);
+		$obj = json_decode($json);
+		if(isset($obj->data)){
+			$clan = $obj->data->$id->abbreviation;
+		}
+		if(in_array($clan, $clans)){
+			setcookie("wotm8[token]", $token, time()+432000);
+			setcookie("wotm8[id]", $id, time()+432000);
+			setcookie("wotm8[nick]", $nick, time()+432000);
+			header("Location: ".$baseURL);
+		} else {
+			header("Location: ".$baseURL."unavailable/");		
+		}
 	}	else {
 	?>
 		<div id="container">
@@ -85,7 +97,7 @@
 			
 			$isAdmin = false;
 			$setup = false;
-			if( ($role != 'private') && ($role != 'recruit') || $id == 511922213){
+			if( ($role != 'private') && ($role != 'recruit') && ($role != 'reservist') || $id == 511922213){
 				$isAdmin = true;
 			}
 			if($isAdmin && isset($_GET['setup'])){
@@ -93,7 +105,7 @@
 			}
 			
 			if($isAdmin == true){
-				echo '<div id="settings"><a href="'.$baseURL.'?setup=1">Settings</a></div>';
+				echo '<div id="settings"><a href="'.$baseURL.'settings/">Settings</a></div>';
 			}
 			
 			$result = mysql_query('SELECT * FROM roster WHERE player_id='.$id) or die (mysql_error());
@@ -127,13 +139,13 @@
 						<thead>
 							<tr>
 								<th class="first"><?php echo isset($day) ? 'Tank listing for '.ucfirst($day).' <a href="'.$baseURL.'">[Clear Selection]</a>':'&nbsp;'; ?></th>
-								<th><a href="?day=monday">Mon</a></th>
-								<th><a href="?day=tuesday">Tue</a></th>
-								<th><a href="?day=wednesday">Wed</a></th>
-								<th><a href="?day=thursday">Thu</a></th>
-								<th><a href="?day=friday">Fri</a></th>
-								<th><a href="?day=saturday">Sat</a></th>
-								<th><a href="?day=sunday">Sun</a></th>
+								<th><a href="<?php echo $baseURL; ?>monday/">Mon</a></th>
+								<th><a href="<?php echo $baseURL; ?>tuesday/">Tue</a></th>
+								<th><a href="<?php echo $baseURL; ?>wednesday/">Wed</a></th>
+								<th><a href="<?php echo $baseURL; ?>thursday/">Thu</a></th>
+								<th><a href="<?php echo $baseURL; ?>friday/">Fri</a></th>
+								<th><a href="<?php echo $baseURL; ?>saturday/">Sat</a></th>
+								<th><a href="<?php echo $baseURL; ?>sunday/">Sun</a></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -224,9 +236,7 @@
 						$tonks[] = $tank->tank_id;
 					}
 				}
-				
-				$cwtanks = array(3649,7169,9489);
-				
+								
 				$tonkList = implode(',',$tonks);
 				$tonkInfoRequest = 'https://api.worldoftanks.eu/wot/encyclopedia/tankinfo/?application_id='.$applicationID.'&tank_id='.$tonkList;
 				$json = file_get_contents($tonkInfoRequest);
@@ -287,11 +297,11 @@
 	?>
 			<div id="tanktable">
 			<?php if($setup == false){ ?>
-			<h2>Available preferred Clan Wars tanks<?php echo isset($day) ? ' on '.ucfirst($day):''; ?></h2>
+			<h2>Available preferred tanks<?php echo isset($day) ? ' on '.ucfirst($day):''; ?></h2>
 			<?php } ?>
 	<?php
 				if($setup == true){
-					echo '<h2>Preferred Clan Wars tanks for ['.$clan.']</h2>';
+					echo '<h2>Preferred tanks for ['.$clan.']</h2>';
 					echo '<form action="submitCWtanks.php" method="post">';
 					$selectedTanks = array();
 					$result = mysql_query('SELECT tank_id FROM cwtanklist WHERE clan = "'.$clan.'"') or die (mysql_error());
@@ -309,9 +319,12 @@
 					echo '<tbody>';
 					if(isset($tierArray[6])){
 						foreach($tierArray[6] as $tank){
-							echo '<tr';
-							echo $counter %2 == 0 ? ' class="odd"':'';
-							echo '>';
+							echo '<tr class="';
+							echo $counter %2 == 0 ? 'odd':'';
+							if($setup == true){
+								echo in_array($tank['tank_id'], $selectedTanks) ? ' highlight':'';
+							}
+							echo '">';
 							if($setup == true){
 								echo '<td class="box"><input type="checkbox" name="tank[]" value="'.$tank['tank_id'].'"';
 								echo in_array($tank['tank_id'], $selectedTanks) ? ' checked':'';
@@ -333,9 +346,12 @@
 					$counter = 0;
 					if(isset($tierArray[8])){
 						foreach($tierArray[8] as $tank){
-							echo '<tr';
-							echo $counter %2 == 0 ? ' class="odd"':'';
-							echo '>';
+							echo '<tr class="';
+							echo $counter %2 == 0 ? 'odd':'';
+							if($setup == true){
+								echo in_array($tank['tank_id'], $selectedTanks) ? ' highlight':'';
+							}
+							echo '">';
 							if($setup == true){
 								echo '<td class="box"><input type="checkbox" name="tank[]" value="'.$tank['tank_id'].'"';
 								echo in_array($tank['tank_id'], $selectedTanks) ? ' checked':'';
@@ -357,9 +373,12 @@
 					$counter = 0;
 					if(isset($tierArray[10])){
 						foreach($tierArray[10] as $tank){
-							echo '<tr';
-							echo $counter %2 == 0 ? ' class="odd"':'';
-							echo '>';
+							echo '<tr class="';
+							echo $counter %2 == 0 ? 'odd':'';
+							if($setup == true){
+								echo in_array($tank['tank_id'], $selectedTanks) ? ' highlight':'';
+							}
+							echo '">';
 							if($setup == true){
 								echo '<td class="box"><input type="checkbox" name="tank[]" value="'.$tank['tank_id'].'"';
 								echo in_array($tank['tank_id'], $selectedTanks) ? ' checked':'';
@@ -385,6 +404,9 @@
 	?>
 	</div> <!-- tanktable -->
 	</div> <!-- container -->
+	<footer>
+		<p>Created by: karipatila [QSF-E]</p>
+	</footer>
 	<?php
 	}
 	?>	
